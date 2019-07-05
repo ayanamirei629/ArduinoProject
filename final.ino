@@ -62,7 +62,7 @@ void loop() {
   }
   Serial.println(".");                //end the line
 
-  di
+  
   while (!finish) {                  //if SW2 button is not pressed or number of input is less than password length, keep get into the loop
     if (irrecv.decode(&results)) {
       Serial.println(results.value, DEC);
